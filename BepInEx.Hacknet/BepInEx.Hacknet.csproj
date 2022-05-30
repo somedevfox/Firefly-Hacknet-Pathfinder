@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BepInEx.Hacknet</RootNamespace>
     <AssemblyName>BepInEx.Hacknet</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <TargetFrameworkProfile />
@@ -45,9 +45,8 @@
       <HintPath>..\libs\FNA.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Hacknet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\libs\HacknetPathfinder.exe</HintPath>
-      <Private>False</Private>
+    <Reference Include="HacknetPathfinder">
+      <HintPath>..\..\..\Game\HacknetPathfinder.exe</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil, Version=0.11.4.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e">
       <HintPath>..\libs\Mono.Cecil.dll</HintPath>
